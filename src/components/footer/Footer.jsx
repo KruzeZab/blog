@@ -1,7 +1,5 @@
 import {
-  Box,
   Container,
-  Divider,
   Grid,
   Link as MuiLink,
   Paper,

@@ -11,7 +11,6 @@ import BigPost from '../components/posts/BigPost';
 import PostVertical from '../components/posts/PostVertical';
 import PostHorizontal from '../components/posts/PostHorizontal';
 
-import Carousel from '../components/carousel/Carousel';
 import Tags from '../components/tags/PostTags';
 
 const Home = () => {
@@ -73,24 +72,6 @@ const Home = () => {
             </Grid>
           ))}
         </Grid>
-      </Box>
-
-      <Box mb={2}>
-        <Box mb={3}>
-          <Typography variant="h5" color="error">
-            Featured Blogs
-          </Typography>
-          <Divider />
-        </Box>
-        <Box>
-          <Carousel>
-            {[...Array(8)].map(e => (
-              <Box mr={2} minHeight="390px">
-                <PostVertical />
-              </Box>
-            ))}
-          </Carousel>
-        </Box>
       </Box>
 
       <Box mb={4}>
