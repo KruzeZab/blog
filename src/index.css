@@ -1,0 +1,9 @@
+body {
+  font-family: 'Poppins', 'Roboto', sans-serif;
+}
+
+main {
+  position: relative;
+  min-height: 70vh;
+  padding-bottom: 8rem;
+}
